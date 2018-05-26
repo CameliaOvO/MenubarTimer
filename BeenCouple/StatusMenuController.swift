@@ -16,12 +16,15 @@ class StatusMenuController: NSObject {
 
     @IBOutlet weak var statusMenu: NSMenu!
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-
+    let dateCalculator = DateCalculator()
+    
     override func awakeFromNib() {
-        let icon = NSImage(named: .status)
-        icon?.isTemplate = true
-        statusItem.image = icon
+//        let icon = NSImage(named: .status)
+//        icon?.isTemplate = true
+//        statusItem.image = icon
+        statusItem.title = "💕 D+" + String(dateCalculator.calculate(startDate: "2017-09-16"))
         statusItem.menu = statusMenu
+        
     }
     
     @IBAction func quitClicked(_ sender: NSMenuItem) {

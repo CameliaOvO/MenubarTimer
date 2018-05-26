@@ -11,6 +11,7 @@
 		90377C8420B93848003C6423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90377C8320B93848003C6423 /* Assets.xcassets */; };
 		90377C8720B93848003C6423 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90377C8520B93848003C6423 /* MainMenu.xib */; };
 		90377C9020B93EB0003C6423 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90377C8F20B93EB0003C6423 /* StatusMenuController.swift */; };
+		90377C9220B942E7003C6423 /* DateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90377C9120B942E7003C6423 /* DateCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		90377C8820B93848003C6423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90377C8920B93848003C6423 /* BeenCouple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeenCouple.entitlements; sourceTree = "<group>"; };
 		90377C8F20B93EB0003C6423 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		90377C9120B942E7003C6423 /* DateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				90377C8120B93848003C6423 /* AppDelegate.swift */,
 				90377C8F20B93EB0003C6423 /* StatusMenuController.swift */,
+				90377C9120B942E7003C6423 /* DateCalculator.swift */,
 				90377C8320B93848003C6423 /* Assets.xcassets */,
 				90377C8520B93848003C6423 /* MainMenu.xib */,
 				90377C8820B93848003C6423 /* Info.plist */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90377C9220B942E7003C6423 /* DateCalculator.swift in Sources */,
 				90377C9020B93EB0003C6423 /* StatusMenuController.swift in Sources */,
 				90377C8220B93848003C6423 /* AppDelegate.swift in Sources */,
 			);
